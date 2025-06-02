@@ -42,8 +42,6 @@ class _DetailPageState extends State<DetailPage> {
     super.dispose();
   }
 
-  // Ganti ini sesuai IP address backend kamu,
-  // jangan pakai localhost/127.0.0.1 kalau di emulator/device fisik
   String getFullUrl(String path) {
     return 'http://127.0.0.1:8000/storage/$path';
   }

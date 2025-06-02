@@ -3,7 +3,7 @@ import 'kategori_page.dart';
 import 'cara_berwudhu_page.dart';
 import 'pembatal_sholat_page.dart';
 import 'syarat_sah_sholat_page.dart';
-import 'hal_hal_dianjurkan_page.dart';  // Import halaman baru
+import 'hal_hal_dianjurkan_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                     Icon(Icons.menu_book, color: Colors.green, size: 32),
                     SizedBox(width: 12),
                     Text(
-                      "Tata Cara & Bacaan Sholat",
+                      "Bacaan Sholat",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,

@@ -7,7 +7,7 @@ class SholatModel {
   final String terjemahan;
   final String gambar;
   final String audio;
-  final String kategori; // tambahkan ini
+  final String kategori;
 
   SholatModel({
     required this.id,
@@ -31,7 +31,7 @@ class SholatModel {
       terjemahan: json['terjemahan'],
       gambar: json['gambar'] ?? '',
       audio: json['audio'] ?? '',
-      kategori: json['kategori'], // ambil dari JSON
+      kategori: json['kategori'],
     );
   }
 }

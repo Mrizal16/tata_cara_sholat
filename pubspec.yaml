@@ -37,6 +37,7 @@ dependencies:
   http: ^0.13.6
   audioplayers: ^3.0.1
   google_fonts: ^4.0.3
+  logger: ^2.0.2
   
 dev_dependencies:
   flutter_test:
